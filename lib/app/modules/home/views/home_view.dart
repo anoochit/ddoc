@@ -14,7 +14,7 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('DDoc'),
+        title: const Text('Markdown Doc'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         surfaceTintColor: Theme.of(context).colorScheme.inversePrimary,
         elevation: 3.0,
